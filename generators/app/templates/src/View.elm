@@ -1,6 +1,7 @@
 module View exposing (..)
 
-import Html exposing (Html, div, text)
+import Html exposing (Html, div, text, button)
+import Html.Events exposing (onClick)
 import Messages exposing (Msg(..))
 import Models exposing (Model)
 import Routing exposing (Route(..))
@@ -22,15 +23,19 @@ page model =
     NotFoundRoute ->
       notFoundView
 
-mainPage : Html msg
+mainPage : Html Msg
 mainPage =
   div []
-      [ text "Welcome to Main page" ]
+      [ div [] [ text "Welcome to Main page" ]
+      , button [onClick GoToAboutPage] [ text "Go To About Page" ]
+      ]
 
-aboutPage : Html msg
+aboutPage : Html Msg
 aboutPage =
   div []
-    [ text "About Page" ]
+      [ div [] [ text "About Page" ]
+      , button [onClick GoToMainPage] [ text "Go To About Page" ]
+      ]
 
 notFoundView : Html msg
 notFoundView =
