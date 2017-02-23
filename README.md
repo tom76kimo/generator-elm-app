@@ -9,6 +9,23 @@ You need `elm` at global
 npm install -g elm
 ```
 
+## What's included
+```
+/
+├── src/
+│   ├── index.html
+│   ├── index.js
+│   ├── Main.elm
+│   ├── Messages.elm
+|   ├── Models.elm
+|   ├── Routing.elm
+|   ├── Update.elm
+|   └── View.elm
+├── elm-package.json
+├── package.json
+└── webpack.config.js
+```
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and genrator-elm-app using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
