@@ -1,12 +1,12 @@
 {
   "name": "generator-elm-app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "homepage": "",
   "author": {
     "name": "tom76kimo",
     "email": "tom76kimo@gmail.com",
-    "url": ""
+    "url": "http://tom76kimo.github.io/"
   },
   "files": [
     "generators"
@@ -14,6 +14,7 @@
   "main": "generators/index.js",
   "keywords": [
     "elm",
+    "web",
     "yeoman-generator"
   ],
   "dependencies": {
@@ -42,7 +43,7 @@
       "mocha": true
     }
   },
-  "repository": "tom76kimo/generator-genrator-elm-app",
+  "repository": "https://github.com/tom76kimo/generator-elm-app",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
