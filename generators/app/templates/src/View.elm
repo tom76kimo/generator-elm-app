@@ -1,6 +1,7 @@
 module View exposing (..)
 
-import Html exposing (Html, div, text, button)
+import Html exposing (Html, div, text, button, h1, p)
+import Html.Attributes exposing (class)
 import Html.Events exposing (onClick)
 import Messages exposing (Msg(..))
 import Models exposing (Model)
@@ -25,16 +26,21 @@ page model =
 
 mainPage : Html Msg
 mainPage =
-  div []
-      [ div [] [ text "Welcome to Main page" ]
-      , button [onClick GoToAboutPage] [ text "Go To About Page" ]
+  div [ class "jumbotron" ]
+      [ div [ class "container" ]
+            [ h1 [] [ text "Welcome to Elm Main page" ]
+            ,  p [] [ text "A delightful language for reliable webapps." ]
+            , button [onClick GoToAboutPage, class "btn btn-primary btn-lg" ] [ text "Go To About Page" ]
+            ]
       ]
 
 aboutPage : Html Msg
 aboutPage =
-  div []
-      [ div [] [ text "About Page" ]
-      , button [onClick GoToMainPage] [ text "Go To About Page" ]
+  div [ class "jumbotron" ]
+      [ div [ class "container" ]
+            [ h1 [] [ text "This is <about> page" ]
+            , button [onClick GoToMainPage, class "btn btn-primary btn-lg" ] [ text "Go To About Page" ]
+            ]
       ]
 
 notFoundView : Html msg
