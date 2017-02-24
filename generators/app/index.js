@@ -15,6 +15,11 @@ module.exports = Generator.extend({
       name: 'appName',
       message: 'Your project name',
       default: this.appname
+    }, {
+      type: 'confirm',
+      name: 'bootstrap',
+      message: 'Would you like to add Bootstrap to your project?',
+      default: true
     }];
 
     return this.prompt(prompts).then(function (props) {
@@ -25,11 +30,12 @@ module.exports = Generator.extend({
 
   writing: function () {
     var appName = this.props.appName;
+    var bootstrap = this.props.bootstrap;
 
     this.fs.copyTpl(
       this.templatePath('_package.json'),
       this.destinationPath('package.json'),
-      { appName: appName }
+      { appName: appName, bootstrap: bootstrap }
     );
 
     this.fs.copyTpl(
@@ -46,7 +52,7 @@ module.exports = Generator.extend({
     this.fs.copyTpl(
       this.templatePath('src'),
       this.destinationPath('src'),
-      { appName: appName }
+      { appName: appName, bootstrap: bootstrap }
     );
   },
 
