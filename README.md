@@ -1,7 +1,8 @@
 # genrator-elm-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 
 
-Create Elm skeleton with Routing included
+ - Create Elm skeleton with Routing included
+ - Support Elm 0.18
 
 ## Prerequisite
 
