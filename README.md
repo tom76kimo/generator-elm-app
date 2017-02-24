@@ -1,6 +1,8 @@
 # genrator-elm-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 
 
+Create Elm skeleton with Routing included
+
 ## Prerequisite
 
 You need `elm` at global
