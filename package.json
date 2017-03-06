@@ -1,7 +1,7 @@
 {
   "name": "generator-elm-app",
-  "version": "0.0.2",
-  "description": "",
+  "version": "1.0.0",
+  "description": "A good generator to build Elm app with minimize effort",
   "homepage": "",
   "author": {
     "name": "tom76kimo",
