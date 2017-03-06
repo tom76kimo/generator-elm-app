@@ -1,4 +1,4 @@
-# genrator-elm-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-elm-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 
 
  - Create Elm skeleton with Routing included
@@ -49,11 +49,11 @@ yo elm-app
 MIT © [tom76kimo]()
 
 
-[npm-image]: https://badge.fury.io/js/genrator-elm-app.svg
-[npm-url]: https://npmjs.org/package/genrator-elm-app
-[travis-image]: https://travis-ci.org/tom76kimo/genrator-elm-app.svg?branch=master
-[travis-url]: https://travis-ci.org/tom76kimo/genrator-elm-app
-[daviddm-image]: https://david-dm.org/tom76kimo/genrator-elm-app.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/tom76kimo/genrator-elm-app
-[coveralls-image]: https://coveralls.io/repos/tom76kimo/genrator-elm-app/badge.svg
-[coveralls-url]: https://coveralls.io/r/tom76kimo/genrator-elm-app
+[npm-image]: https://badge.fury.io/js/generator-elm-app.svg
+[npm-url]: https://npmjs.org/package/generator-elm-app
+[travis-image]: https://travis-ci.org/tom76kimo/generator-elm-app.svg?branch=master
+[travis-url]: https://travis-ci.org/tom76kimo/generator-elm-app
+[daviddm-image]: https://david-dm.org/tom76kimo/generator-elm-app.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/tom76kimo/generator-elm-app
+[coveralls-image]: https://coveralls.io/repos/tom76kimo/generator-elm-app/badge.svg
+[coveralls-url]: https://coveralls.io/r/tom76kimo/generator-elm-app
