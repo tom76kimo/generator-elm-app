@@ -44,6 +44,11 @@ Then generate your new project:
 yo elm-app
 ```
 
+## How to start
+```bash
+npm run dev
+```
+
 ## License
 
 MIT © [tom76kimo]()
