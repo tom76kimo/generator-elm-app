@@ -31,15 +31,21 @@ npm install -g elm
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and genrator-elm-app using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-elm-app using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g genrator-elm-app
+npm install -g generator-elm-app
 ```
 
 Then generate your new project:
 
+Create project folder
+```bash
+mkdir my-project && cd "$_"
+```
+
+then
 ```bash
 yo elm-app
 ```
